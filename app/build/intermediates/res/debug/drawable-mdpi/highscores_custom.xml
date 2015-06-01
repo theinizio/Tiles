@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <selector xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:state_pressed="true"
+           android:drawable="@drawable/high_scores_pressed" /> <!-- pressed -->
+     <item android:drawable="@drawable/high_scores" /> <!-- default -->
+ </selector><!-- From: file:/B:/AndroidstudioProjects/Tiles/app/src/main/res/drawable-mdpi/highscores_custom.xml -->

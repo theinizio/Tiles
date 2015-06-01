@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="281dp" >
+    
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/title" />
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:onClick="openGameAvtivity"
+        android:background="@null"
+        android:src="@drawable/play_custom" />
+    
+	 <ImageButton
+        android:id="@+id/highscoresButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/playButton"
+        android:onClick="openHighscores"
+        android:background="@null"
+        android:src="@drawable/highscores_custom" />
+	
+    <ImageButton
+        android:id="@+id/how2PlayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/highscoresButton"
+        android:background="@null"
+        android:onClick="openHow2PLay"
+        android:src="@drawable/how_2_play_custom" />
+
+    <ImageButton
+        android:id="@+id/soundBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="toggleSound"
+        android:background="@null"
+        android:src="@drawable/soundoff" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/playButton"
+        android:layout_toLeftOf="@+id/playButton"
+        android:text="Play" />
+   
+</RelativeLayout><!-- From: file:/B:/AndroidstudioProjects/Tiles/app/src/main/res/layout/main.xml -->

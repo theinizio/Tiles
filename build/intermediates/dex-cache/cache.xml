@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\kirill\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.2\1f96456ca233dec780aa224bff076d8e8bca3908\gson-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1f96456ca233dec780aa224bff076d8e8bca3908">
+        <dex dex="B:\AndroidstudioProjects\Tiles\app\build\intermediates\pre-dexed\debug\gson-2.2.2-74f2e80f22c3efd880bfb114824d77f88f469547.jar" />
+    </item>
+    <item
+        jar="B:\AndroidstudioProjects\Tiles\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\6.5.87\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41aa21f9c5d9ea9aab32c0b8e33d0c13364063a9">
+        <dex dex="B:\AndroidstudioProjects\Tiles\app\build\intermediates\pre-dexed\debug\classes-af2319d1eb89d72e053e027ebf4acdd2d47503f5.jar" />
+    </item>
+    <item
+        jar="B:\AndroidstudioProjects\Tiles\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\6.5.87\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="B:\AndroidstudioProjects\Tiles\app\build\intermediates\pre-dexed\debug\classes-bf5857c0487fb3ed01da1b36ab280d3317387d6e.jar" />
+    </item>
+    <item
+        jar="B:\AndroidstudioProjects\Tiles\app\libs\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="B:\AndroidstudioProjects\Tiles\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.4-d95648302033ab0828e0ae0b3173d0600fa1b604.jar" />
+    </item>
+    <item
+        jar="B:\AndroidstudioProjects\Tiles\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="B:\AndroidstudioProjects\Tiles\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-3d087e732769a88e8fe658125ef73d889f76230c.jar" />
+    </item>
+    <item
+        jar="B:\AndroidstudioProjects\Tiles\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="B:\AndroidstudioProjects\Tiles\app\build\intermediates\pre-dexed\debug\classes-e6c0c38cebdaaaf58f6e4a31f8771e4cbfeed879.jar" />
+    </item>
+    <item
+        jar="B:\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="B:\AndroidstudioProjects\Tiles\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-a878b05fdf4876b48eb4150104b8745be0a24902.jar" />
+    </item>
+
+</items>
