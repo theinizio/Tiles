@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/B:/AndroidstudioProjects/Tiles/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="button_bg_down">#8f8f8f</color>
+    <color name="button_bg_up">#b3b3b3</color>
+    <color name="button_stroke">#e1e1e1</color>
     <!-- From: file:/B:/AndroidstudioProjects/Tiles/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/common_colors.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
@@ -15,6 +20,8 @@
     <!-- From: file:/B:/AndroidstudioProjects/Tiles/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="kinda_grey">#cccccc</color>
+    <color name="text_gradient_down">#dfffff</color>
+    <color name="white">#ffffff</color>
     <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
     <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
     <!-- From: file:/B:/AndroidstudioProjects/Tiles/app/src/main/res/values/dimens.xml -->

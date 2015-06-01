@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="kinda_grey">#cccccc</color>
+    <color name="white">#ffffff</color>
+    <color name="text_gradient_down">#dfffff</color>
+    <color name="button_bg_up">#b3b3b3</color>
+    <color name="button_bg_down">#8f8f8f</color>
+    <color name="button_stroke">#e1e1e1</color>
 </resources>

@@ -57,10 +57,16 @@
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="197dp"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/playButton"
-        android:layout_toLeftOf="@+id/playButton"
-        android:text="Play" />
+        android:layout_width="127dp"
+        android:layout_height="26dp"
+        android:text="Play"
+        android:background="@drawable/button_bg"
+        android:shadowColor="#ffffff"
+        android:layout_above="@+id/playButton"
+        android:layout_alignRight="@+id/playButton"
+        android:textColor="@drawable/button_text_bg"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:onClick="openGameAvtivity" />
    
 </RelativeLayout><!-- From: file:/B:/AndroidstudioProjects/Tiles/app/src/main/res/layout/main.xml -->
