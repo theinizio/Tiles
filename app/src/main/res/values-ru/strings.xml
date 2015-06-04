@@ -25,4 +25,7 @@
     <string name="planet_prompt">Выбери имя</string>
     <string name="result">2</string>
     <string name="playB">Играть</string>
+    <string name="Steps">Шаги</string>
+    <string name="Time">Время</string>
+    <string name="Score">Счет</string>
 </resources>

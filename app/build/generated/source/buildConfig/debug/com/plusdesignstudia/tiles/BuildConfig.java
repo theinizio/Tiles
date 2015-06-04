@@ -5,7 +5,7 @@ package com.plusdesignstudia.tiles;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
-  public static final String APPLICATION_ID = "com.com.plusdesignstudia.tiles";
+  public static final String APPLICATION_ID = "com.plusdesignstudia.tiles";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "";
   public static final int VERSION_CODE = 0;

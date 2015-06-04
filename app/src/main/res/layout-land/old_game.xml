@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_blank"
+    android:gravity="left"
+    android:orientation="vertical"
+    tools:context=".Game" >
+
+    <ImageButton
+        android:id="@+id/blueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/purpleButton"
+        android:layout_below="@+id/greenButton"
+        android:background="@null"
+        android:onClick="showBlue"
+        android:src="@drawable/blue" />
+
+    <ImageButton
+        android:id="@+id/greenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/purpleButton"
+        android:layout_below="@+id/redButton"
+        android:background="@null"
+        android:onClick="showGreen"
+        android:src="@drawable/green" />
+
+    <ImageButton
+        android:id="@+id/redButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/purpleButton"
+        android:layout_below="@+id/yellowButton"
+        android:background="@null"
+        android:onClick="showRed"
+        android:src="@drawable/red" />
+
+    <ImageButton
+        android:id="@+id/yellowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/purpleButton"
+        android:layout_below="@+id/purpleButton"
+        android:background="@null"
+        android:onClick="showYellow"
+        android:src="@drawable/yellow" />
+
+    <ImageButton
+        android:id="@+id/purpleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="@null"
+        android:onClick="showPurple"
+        android:src="@drawable/purple" />
+
+    <ImageButton
+        android:id="@+id/undoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+         android:background="@null"
+        android:onClick="undoHandler"
+        android:src="@drawable/undox" />
+
+    <TextView
+        android:id="@+id/movesLabel"
+        android:layout_width="30dp"
+        android:layout_height="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/undoBtn"
+        android:layout_marginLeft="33dp"
+        android:layout_toRightOf="@+id/undoBtn"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/scorelabel"
+        android:layout_width="90dp"
+        android:layout_height="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/undoBtn"
+        android:layout_marginLeft="33dp"
+        android:layout_toRightOf="@+id/movesLabel"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/playTime"
+        android:layout_width="30dp"
+        android:layout_height="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/undoBtn"
+        android:layout_marginLeft="33dp"
+        android:layout_toRightOf="@+id/scorelabel"
+        android:ems="10" />
+
+
+    <ImageButton
+        android:id="@+id/pauseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/playTime"
+        android:background="@null"
+        android:onClick="pauseFunc"
+        android:src="@drawable/pause_custom" />
+
+</RelativeLayout>

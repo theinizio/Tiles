@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/title_bg">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/title_screen" />
+
+    <ImageButton
+        android:id="@+id/how2PlayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@null"
+        android:onClick="openHow2PLay"
+        android:src="@drawable/how_2_play_custom"
+        android:visibility="visible"
+        android:layout_gravity="bottom"
+        android:layout_alignBottom="@+id/playButton"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp" />
+
+    <ImageButton
+        android:id="@+id/highscoresButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openHighscores"
+        android:background="@null"
+        android:src="@drawable/highscores_custom"
+         android:visibility="visible"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="51dp"
+        android:layout_alignBottom="@+id/playButton"
+        android:layout_alignRight="@+id/imageView" />
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openGameAvtivity"
+        android:background="@null"
+        android:src="@drawable/play_in_title"
+
+        android:layout_gravity="bottom|center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp" />
+
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:baselineAligned="false"
+        android:background="@color/title_bg"
+        android:alpha="0.8"
+        android:visibility="visible"
+        android:id="@+id/cover"
+        android:onClick="@null">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+           android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Loading ads..."
+            android:id="@+id/textView2"
+            android:textColor="@color/base_color" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/B:/AndroidstudioProjects/Tiles/app/src/main/res/layout-land/main.xml -->

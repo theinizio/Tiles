@@ -6,4 +6,13 @@
     <color name="button_bg_up">#b3b3b3</color>
     <color name="button_bg_down">#8f8f8f</color>
     <color name="button_stroke">#e1e1e1</color>
+    <color name="base_color">#3a2308</color>
+    <color name="brown_placeholder">#a86420</color>
+
+    <color name="tile_blue"  >#5c68ff</color>
+    <color name="tile_green" >#89f40c</color>
+    <color name="tile_red"   >#ff2e2e</color>
+    <color name="tile_yellow">#edd600</color>
+    <color name="tile_purple">#c617a1</color>
+    <color name="title_bg">#fffdeb</color>
 </resources>
