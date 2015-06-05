@@ -6,4 +6,4 @@
     android:pivotX="50%"
     android:pivotY="93%"
 
-    android:duration="500" />
+    android:duration="1000" />

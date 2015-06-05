@@ -6,4 +6,4 @@
     android:pivotX="50%"
     android:pivotY="93%"
 
-    android:duration="500" /><!-- From: file:/B:/AndroidstudioProjects/Tiles/app/src/main/res/anim/rotate_up.xml -->
+    android:duration="1000" /><!-- From: file:/B:/AndroidstudioProjects/Tiles/app/src/main/res/anim/rotate_up.xml -->

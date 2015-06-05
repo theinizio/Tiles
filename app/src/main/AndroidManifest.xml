@@ -32,7 +32,7 @@
         <activity
             android:name=".Game"
             android:label="@string/app_name"
-
+            android:noHistory="true"
             android:screenOrientation="landscape" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -41,7 +41,7 @@
         <activity
             android:name=".How2PLay"
             android:label="@string/app_name"
-
+            android:noHistory="true"
             android:screenOrientation="landscape" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -50,7 +50,7 @@
         <activity
             android:name=".HighScores"
             android:label="@string/app_name"
-
+            android:noHistory="true"
             android:screenOrientation="landscape" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -59,7 +59,7 @@
         <activity
             android:name=".highScore"
             android:label="@string/app_name"
-
+            android:noHistory="true"
             android:screenOrientation="landscape" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

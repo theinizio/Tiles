@@ -13,12 +13,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/plate_pause"
+        android:background="@null"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/pause_plate"
 
-        android:visibility="invisible">
+        android:visibility="invisible"
+        android:layout_marginBottom="-30dp"
+        android:onClick="onResume">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/plate_pause" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -202,11 +210,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/plate_game_over"
+        android:background="@null"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/game_over_plate"
-        android:visibility="invisible">
+        android:visibility="invisible"
+        android:layout_marginBottom="-30dp"
+        android:onClick="showMainScreen">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/plate_game_over" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -218,6 +237,6 @@
             android:textSize="60dp"
             android:text="23500"
             android:textStyle="bold" />
-        </RelativeLayout>
+    </RelativeLayout>
 
 </RelativeLayout><!-- From: file:/B:/AndroidstudioProjects/Tiles/app/src/main/res/layout-land/game.xml -->
