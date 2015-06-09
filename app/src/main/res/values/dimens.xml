@@ -2,4 +2,91 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <integer-array name="offset_main_0">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="offset_main_1">
+        <item>233</item>
+        <item>34</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="offset_main_2">
+        <item>217</item>
+        <item>43</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="offset_main_3">
+        <item>136</item>
+        <item>27</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="offset_main_4">
+        <item>155</item>
+        <item>21</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="offset_main_5">
+        <item>170</item>
+        <item>20</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+    <!--320x480-->
+    <integer-array name="offset_main_6">
+        <item>35</item>
+        <item>8</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="offset_main_7">
+        <item>343</item>
+        <item>42</item>
+        <item>7</item>
+        <item>7</item>
+    </integer-array>
+    <!--2560x1440-->
+    <integer-array name="offset_main_8">
+        <item>457</item>
+        <item>59</item>
+        <item>10</item>
+        <item>10</item>
+    </integer-array>
+    <integer-array name="offset_main_9">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="offset_main_10">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="offset_main_11">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="offset_main_12">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="offset_main_13">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
 </resources>

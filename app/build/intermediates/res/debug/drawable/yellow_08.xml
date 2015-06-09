@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <selector xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:state_pressed="true"
+           android:drawable="@drawable/button_yellow_pressed_08" /> <!-- pressed -->
+     <item android:drawable="@drawable/button_yellow_08" /> <!-- default -->
+ </selector><!-- From: file:/B:/AndroidstudioProjects/Tiles/app/src/main/res/drawable/yellow_08.xml -->

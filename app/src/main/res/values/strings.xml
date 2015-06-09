@@ -16,6 +16,7 @@
         For more information, see https://support.google.com/admob/answer/3052638
     <!-ca-app-pub-3940256099942544/1033173712 -->
     <string name="interstitial_ad_unit_id">ca-app-pub-8495466813348331/8190100005</string>
+    <string name="banner_id">ca-app-pub-8495466813348331/9884682406</string>
 
     <string name="signing_in">Signing in with Google</string>
     <string name="signing_out">Signing out</string>

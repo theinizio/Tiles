@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".How2PLay"
     android:orientation="vertical"
-    android:background="@drawable/background_blank">
+    android:background="@drawable/background_blank_08">
 
     <ListView
         android:id="@+id/listView1"
@@ -17,18 +17,6 @@
         android:layout_centerHorizontal="true"
         android:layout_weight="0.9">
     </ListView>
-    <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="@null"
-        android:onClick="onBackPressed"
-        android:src="@drawable/mainmenu_custom"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="5dp" />
 
-   
 
 </LinearLayout>

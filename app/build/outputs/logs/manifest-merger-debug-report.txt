@@ -254,6 +254,8 @@ MERGED from com.google.android.gms:play-services-base:7.5.0:20:5
 MERGED from com.android.support:support-v4:22.0.0:22:5
 	android:label
 		ADDED from AndroidManifest.xml:20:18
+	android:icon
+		ADDED from AndroidManifest.xml:20:51
 activity#com.plusdesignstudia.tiles.MainActivity
 ADDED from AndroidManifest.xml:21:9
 	android:screenOrientation
@@ -278,6 +280,8 @@ ADDED from AndroidManifest.xml:32:9
 		ADDED from AndroidManifest.xml:36:13
 	android:label
 		ADDED from AndroidManifest.xml:34:13
+	android:noHistory
+		ADDED from AndroidManifest.xml:35:13
 	android:name
 		ADDED from AndroidManifest.xml:33:13
 meta-data#android.support.PARENT_ACTIVITY
@@ -292,6 +296,8 @@ ADDED from AndroidManifest.xml:41:9
 		ADDED from AndroidManifest.xml:45:13
 	android:label
 		ADDED from AndroidManifest.xml:43:13
+	android:noHistory
+		ADDED from AndroidManifest.xml:44:13
 	android:name
 		ADDED from AndroidManifest.xml:42:13
 activity#com.plusdesignstudia.tiles.HighScores
@@ -300,6 +306,8 @@ ADDED from AndroidManifest.xml:50:9
 		ADDED from AndroidManifest.xml:54:13
 	android:label
 		ADDED from AndroidManifest.xml:52:13
+	android:noHistory
+		ADDED from AndroidManifest.xml:53:13
 	android:name
 		ADDED from AndroidManifest.xml:51:13
 activity#com.plusdesignstudia.tiles.highScore
@@ -308,6 +316,8 @@ ADDED from AndroidManifest.xml:59:9
 		ADDED from AndroidManifest.xml:63:13
 	android:label
 		ADDED from AndroidManifest.xml:61:13
+	android:noHistory
+		ADDED from AndroidManifest.xml:62:13
 	android:name
 		ADDED from AndroidManifest.xml:60:13
 meta-data#com.google.android.gms.version

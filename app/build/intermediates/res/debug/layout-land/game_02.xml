@@ -1,0 +1,230 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_game_layout">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/bg"
+        android:src="@drawable/background_with_placeholders_02" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/undoBtn"
+        android:src="@drawable/button_undo_02"
+        android:background="@null"
+        android:layout_marginRight="38px"
+        android:layout_marginBottom="32px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="undoHandler" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="46px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="44px"
+        android:id="@+id/control_buttons">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/blue_button"
+            android:src="@drawable/blue_02"
+            android:background="@null"
+            android:onClick="showBlue" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/redButton"
+            android:src="@drawable/red_02"
+            android:background="@null"
+            android:onClick="showRed"
+            android:layout_marginTop="3px" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/greenButton"
+            android:layout_marginTop="3px"
+            android:background="@null"
+            android:src="@drawable/green_02"
+            android:onClick="showGreen" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/purpleButton"
+            android:layout_marginTop="3px"
+            android:background="@null"
+            android:onClick="showPurple"
+            android:src="@drawable/purple_02" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yellowButton"
+            android:layout_marginTop="3px"
+            android:background="@null"
+            android:src="@drawable/yellow_02"
+            android:onClick="showYellow" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="27px"
+        android:gravity="center"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Time"
+                android:id="@+id/time_text"
+                android:textColor="@color/base_color"
+                android:textSize="37px"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Score"
+                android:id="@+id/score_text"
+                android:textColor="@color/base_color"
+                android:textSize="37px"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Steps"
+                android:id="@+id/steps_text"
+                android:textColor="@color/base_color"
+                android:textSize="37px"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/playTime"
+                android:textColor="@color/base_color"
+                android:textSize="56px"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/scorelabel"
+                android:textColor="@color/base_color"
+                android:textSize="56px"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/movesLabel"
+                android:textColor="@color/base_color"
+                android:textSize="56px"
+                android:gravity="center" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pauseButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="pauseFunc"
+        android:src="@drawable/pause_02"
+        android:background="@null"
+        android:layout_marginLeft="31px"
+        android:layout_marginTop="47px" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pause_plate"
+        android:layout_marginBottom="-143px"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/plate_pause"
+            android:src="@drawable/plate_pause_02" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/play_in_pause_02"
+            android:background="@null"
+            android:onClick="onResume" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/game_over_plate"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-143px"
+        android:onClick="showMainScreen">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/plate_game_over"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/plate_game_over_02" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2356"
+            android:id="@+id/game_over_score"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="105px"
+            android:textColor="@color/base_color" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+<!-- From: file:/B:/AndroidstudioProjects/Tiles/app/src/main/res/layout-land/game_02.xml -->

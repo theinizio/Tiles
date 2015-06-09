@@ -1,5 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/B:/AndroidstudioProjects/Tiles/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <integer-array name="offset_main_0">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="offset_main_1">
+        <item>233</item>
+        <item>34</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="offset_main_10">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="offset_main_11">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="offset_main_12">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="offset_main_13">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="offset_main_2">
+        <item>217</item>
+        <item>43</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="offset_main_3">
+        <item>136</item>
+        <item>27</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="offset_main_4">
+        <item>155</item>
+        <item>21</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="offset_main_5">
+        <item>170</item>
+        <item>20</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="offset_main_6">
+        <item>35</item>
+        <item>8</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="offset_main_7">
+        <item>343</item>
+        <item>42</item>
+        <item>7</item>
+        <item>7</item>
+    </integer-array>
+    <integer-array name="offset_main_8">
+        <item>457</item>
+        <item>59</item>
+        <item>10</item>
+        <item>10</item>
+    </integer-array>
+    <integer-array name="offset_main_9">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
     <!-- From: file:/B:/AndroidstudioProjects/Tiles/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
@@ -302,6 +388,9 @@
     <eat-comment/>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <!-- From: file:/B:/AndroidstudioProjects/Tiles/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="banner_id">ca-app-pub-8495466813348331/9884682406</string>
     <!-- From: file:/B:/AndroidstudioProjects/Tiles/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/res/values/cast_strings.xml -->
     <eat-comment/>
     <string name="cast_notification_connected_message">Connected to <ns1:g id="name">%1$s</ns1:g></string>

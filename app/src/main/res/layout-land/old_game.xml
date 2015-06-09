@@ -4,7 +4,7 @@
     android:id="@+id/gameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_blank"
+    android:background="@drawable/background_blank_08"
     android:gravity="left"
     android:orientation="vertical"
     tools:context=".Game" >
@@ -17,7 +17,7 @@
         android:layout_below="@+id/greenButton"
         android:background="@null"
         android:onClick="showBlue"
-        android:src="@drawable/blue" />
+        android:src="@drawable/blue_08" />
 
     <ImageButton
         android:id="@+id/greenButton"
@@ -27,7 +27,7 @@
         android:layout_below="@+id/redButton"
         android:background="@null"
         android:onClick="showGreen"
-        android:src="@drawable/green" />
+        android:src="@drawable/green_08" />
 
     <ImageButton
         android:id="@+id/redButton"
@@ -37,7 +37,7 @@
         android:layout_below="@+id/yellowButton"
         android:background="@null"
         android:onClick="showRed"
-        android:src="@drawable/red" />
+        android:src="@drawable/red_08" />
 
     <ImageButton
         android:id="@+id/yellowButton"
@@ -47,7 +47,7 @@
         android:layout_below="@+id/purpleButton"
         android:background="@null"
         android:onClick="showYellow"
-        android:src="@drawable/yellow" />
+        android:src="@drawable/yellow_08" />
 
     <ImageButton
         android:id="@+id/purpleButton"
@@ -59,7 +59,7 @@
         android:layout_marginTop="30dp"
         android:background="@null"
         android:onClick="showPurple"
-        android:src="@drawable/purple" />
+        android:src="@drawable/purple_08" />
 
     <ImageButton
         android:id="@+id/undoBtn"
@@ -71,7 +71,7 @@
         android:layout_marginBottom="1dp"
          android:background="@null"
         android:onClick="undoHandler"
-        android:src="@drawable/undox" />
+        android:src="@drawable/undox_08" />
 
     <TextView
         android:id="@+id/movesLabel"
@@ -110,6 +110,6 @@
         android:layout_alignTop="@+id/playTime"
         android:background="@null"
         android:onClick="pauseFunc"
-        android:src="@drawable/pause_custom" />
+        android:src="@drawable/pause_08" />
 
 </RelativeLayout>

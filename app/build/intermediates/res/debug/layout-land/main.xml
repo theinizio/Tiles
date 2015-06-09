@@ -11,7 +11,7 @@
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/title_screen" />
+        android:src="@drawable/title_screen_08" />
 
     <ImageButton
         android:id="@+id/how2PlayButton"
@@ -20,7 +20,7 @@
 
         android:background="@null"
         android:onClick="openHow2PLay"
-        android:src="@drawable/how_2_play_custom"
+        android:src="@drawable/how_2_play_08"
         android:visibility="visible"
         android:layout_gravity="bottom"
         android:layout_alignBottom="@+id/playButton"
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:onClick="openHighscores"
         android:background="@null"
-        android:src="@drawable/highscores_custom"
+        android:src="@drawable/highscores_08"
          android:visibility="visible"
         android:layout_gravity="bottom|right"
         android:layout_marginRight="51dp"
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:onClick="openGameAvtivity"
         android:background="@null"
-        android:src="@drawable/play_in_title"
+        android:src="@drawable/play_in_title_08"
 
         android:layout_gravity="bottom|center_vertical"
         android:layout_alignParentBottom="true"
